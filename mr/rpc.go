@@ -22,6 +22,21 @@ type ExampleReply struct {
 	Y int
 }
 
+type Request struct{
+	HasStatus bool
+	OfType string
+	Index int
+}
+type Task struct{
+	OfType string
+	Filename string
+	Index int
+	NumReducers int
+	Completed bool
+	NumOfFiles int
+	Sleep bool
+
+}
 // Add your RPC definitions here.
 
 
